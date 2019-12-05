@@ -1,6 +1,6 @@
 ﻿Import-Module MSOnline
 Connect-MsolService
-$csvpath = "C:\Powershell\Atrium\Email.csv"
+$csvpath = "C:\Powershell\Scripts\Email.csv"
 
 #Variables
 $365Users = import-csv $csvpath -header("UPN","DisplayName","FirstName","LastName","password","License","Department","Title")
